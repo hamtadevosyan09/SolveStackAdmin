@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "161525464686",
+    "firebase_url": "https://skillswapfinal-93e91-default-rtdb.firebaseio.com",
+    "project_id": "skillswapfinal-93e91",
+    "storage_bucket": "skillswapfinal-93e91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161525464686:android:4e1b7ec5251b81a5adf07f",
+        "android_client_info": {
+          "package_name": "com.myproject.skillswap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWyXJuXwrfwKyGRk7t4x5DxSSKH4zddyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161525464686:android:2c3a1735e31e51deadf07f",
+        "android_client_info": {
+          "package_name": "com.myproject.solvestackadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWyXJuXwrfwKyGRk7t4x5DxSSKH4zddyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

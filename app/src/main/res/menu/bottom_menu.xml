@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/home"
+    android:icon="@drawable/home"
+    android:title="Home" />
+
+<item
+    android:id="@+id/Answers"
+    android:icon="@drawable/mathfunction"
+    android:title="Answers" />
+
+<item
+    android:id="@+id/fab"
+    android:enabled="false"
+    android:title="" />
+
+<item
+    android:id="@+id/Reports"
+    android:icon="@drawable/report_icon"
+    android:title="Reports" />
+<item
+    android:id="@+id/Resources"
+    android:icon="@drawable/resources_icon"
+    android:title="Resources" />
+
+</menu>
