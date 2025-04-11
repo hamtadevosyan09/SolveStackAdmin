@@ -11,7 +11,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="lavender">#8692f7</color>
     <color name="green">#A7DA6B</color>
-    <color name="red">#910032</color>
+    <color name="red">#B71C1C</color>
     <color name="yellow">#B1A642</color>
     <color name="famous_blue">#0070FF</color>
     <color name="orange">#FF9800</color>
@@ -32,4 +32,5 @@
     <color name="resource_title">#2D3142</color>
     <color name="stroke_color">#E0E6ED</color>
     <color name="ripple_color">#33007BFF</color>
+    <color name="light_grey_blue">#EDF1F5</color>
 </resources>

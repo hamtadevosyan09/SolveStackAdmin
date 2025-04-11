@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".EditPostActivity">
+    tools:context=".EditPostActivity"
+    android:background="@color/light_grey_blue">
 
     <ImageView
         android:id="@+id/goback234"
@@ -17,20 +18,14 @@
         app:srcCompat="@drawable/back" />
 
     <TextView
-        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="Edit Title and Description then press Save Changes to save changes."
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="15dp"
         android:textStyle="bold" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="70dp"
-        android:background="@color/light_gray" />
 
     <EditText
         android:id="@+id/editTextTitle"
@@ -38,7 +33,9 @@
         android:layout_height="wrap_content"
         android:hint="Title"
         android:padding="10dp"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"/>
 
     <EditText
         android:id="@+id/editTextDescription"
@@ -46,13 +43,9 @@
         android:layout_height="wrap_content"
         android:hint="Description"
         android:padding="10dp"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:background="@drawable/border"/>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="0dp"
-        android:background="@color/light_gray" />
 
     <Button
         android:id="@+id/buttonSave"
@@ -62,6 +55,5 @@
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/black"
         android:text="Save Changes" />
-
 
 </LinearLayout>

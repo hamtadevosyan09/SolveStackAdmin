@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/light_grey_blue"
     android:orientation="vertical"
     tools:context=".SettingsFragment">
 
@@ -29,8 +29,8 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="#EEEEEE"
+            android:layout_height="1dp"
+            android:background="@color/light_gray"
             android:layout_marginHorizontal="16dp" />
 
         <TextView
