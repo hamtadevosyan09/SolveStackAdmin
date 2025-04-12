@@ -47,15 +47,6 @@ public class ResourcesFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
-        ImageView backButton = rootView.findViewById(R.id.backlearn);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                requireActivity().onBackPressed();
-            }
-        });
-
         return rootView;
     }
 }
