@@ -80,7 +80,8 @@
                     <ImageView
                         android:layout_width="36dp"
                         android:layout_height="36dp"
-                        android:contentDescription="USA flag"/>
+                        android:contentDescription="USA flag"
+                        android:background="@drawable/usa_flag"/>
 
                     <TextView
                         android:id="@+id/web_1"
@@ -115,7 +116,8 @@
                     <ImageView
                         android:layout_width="36dp"
                         android:layout_height="36dp"
-                        android:contentDescription="Russian flag" />
+                        android:contentDescription="Russian flag"
+                        android:background="@drawable/russia_flag"/>
 
                     <TextView
                         android:id="@+id/web_2"
@@ -149,7 +151,8 @@
                     <ImageView
                         android:layout_width="36dp"
                         android:layout_height="36dp"
-                        android:contentDescription="Armenian flag" />
+                        android:contentDescription="Armenian flag"
+                        android:background="@drawable/armenia_icon"/>
 
                     <TextView
                         android:id="@+id/web_3"
