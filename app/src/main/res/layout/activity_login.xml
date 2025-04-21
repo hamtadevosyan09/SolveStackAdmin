@@ -13,22 +13,25 @@
         android:layout_height="match_parent" >
     </RelativeLayout>
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/card_view"
-        android:gravity="center"
-        android:orientation="vertical"
         android:padding="28dp">
 
         <TextView
+            android:id="@+id/headerText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SolveStack Admin"
             android:textColor="@android:color/white"
             android:textSize="45sp"
-            android:textStyle="bold"/>
-    </LinearLayout>
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
@@ -126,15 +129,6 @@
                     android:layout_centerVertical="true"
                     android:text="Remember me" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:id="@+id/forgetpassword"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:textColor="@color/blue"
-                    android:layout_centerVertical="true"
-                    android:text="I forgot my password" />
-
             </RelativeLayout>
 
             <View
@@ -153,14 +147,6 @@
             <View
                 android:layout_width="wrap_content"
                 android:layout_height="10dp" />
-
-            <TextView
-                android:id="@+id/signupRedirect"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Don't have an account? Sign up!"
-                android:textColor="@color/blue" />
 
         </LinearLayout>
 
