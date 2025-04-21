@@ -10,7 +10,7 @@
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="?android:attr/actionBarSize">
+        android:paddingTop="75dp">
 
         <LinearLayout
             android:layout_width="match_parent"
