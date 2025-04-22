@@ -1,21 +1,21 @@
 package com.myproject.solvestackadmin;
-
 public class Post {
     private String postId;
     private String title;
     private String description;
     private String userId;
     private String creatorUserId;
-    private String difficultyLevel;
+    private String category;
 
     public Post() {
     }
 
-    public Post(String title, String description, String userId, String creatorUserId) {
+    public Post(String title, String description, String userId, String creatorUserId, String category) {
         this.title = title;
         this.description = description;
         this.userId = userId;
         this.creatorUserId = creatorUserId;
+        this.category = category;
     }
 
     public String getPostId() {
@@ -58,11 +58,11 @@ public class Post {
         this.creatorUserId = creatorUserId;
     }
 
-    public String getDifficultyLevel() {
-        return difficultyLevel;
+    public String getCategory() {
+        return category;
     }
 
-    public void setDifficultyLevel(String difficultyLevel) {
-        this.difficultyLevel = difficultyLevel;
+    public void setCategory(String category) {
+        this.category = category;
     }
 }
