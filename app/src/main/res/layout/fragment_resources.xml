@@ -57,7 +57,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="10dp"
+            android:background="@color/white">
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/web_1_card"
@@ -66,7 +67,6 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="2dp"
-                app:strokeColor="@color/stroke_color"
                 app:strokeWidth="1dp">
 
                 <LinearLayout
@@ -74,7 +74,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    android:backgroundTint="@color/stroke_color">
 
                     <ImageView
                         android:layout_width="36dp"
@@ -109,7 +110,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    android:backgroundTint="@color/stroke_color">
 
                     <ImageView
                         android:layout_width="36dp"
@@ -143,7 +145,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp">
+                    android:padding="16dp"
+                    android:backgroundTint="@color/stroke_color">
 
                     <ImageView
                         android:layout_width="36dp"
