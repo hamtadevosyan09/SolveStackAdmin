@@ -9,7 +9,7 @@
 <item
     android:id="@+id/Answers"
     android:icon="@drawable/mathfunction"
-    android:title="Answers" />
+    android:title="Problems" />
 
 <item
     android:id="@+id/fab"
