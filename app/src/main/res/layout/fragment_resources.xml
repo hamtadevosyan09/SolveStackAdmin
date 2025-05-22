@@ -43,23 +43,26 @@
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/resourceCard"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="-200dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="1dp"
         android:layout_marginBottom="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:minWidth="300dp"
+        android:maxWidth="600dp"
         app:cardBackgroundColor="@color/card_background"
         app:cardCornerRadius="16dp"
         app:cardElevation="4dp"
         app:layout_constraintTop_toBottomOf="@id/subtitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.3">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -89,7 +92,7 @@
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:contentDescription="USA flag"
-                        android:background="@drawable/usa_flag"/>
+                        android:background="@drawable/usa_flag" />
 
                     <TextView
                         android:id="@+id/web_1"
@@ -99,7 +102,7 @@
                         android:layout_weight="1"
                         android:text="Art Of Problem Solving ( AoPs )"
                         android:textColor="@color/black"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -119,14 +122,13 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:backgroundTint="@color/stroke_color">
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:contentDescription="Russian flag"
-                        android:background="@drawable/russia_flag"/>
+                        android:background="@drawable/russia_flag" />
 
                     <TextView
                         android:id="@+id/web_2"
@@ -136,7 +138,7 @@
                         android:layout_weight="1"
                         android:text="Problems.ru"
                         android:textColor="@color/black"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -161,7 +163,7 @@
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:contentDescription="Armenian flag"
-                        android:background="@drawable/armenia_icon"/>
+                        android:background="@drawable/armenia_icon" />
 
                     <TextView
                         android:id="@+id/web_3"
@@ -171,7 +173,7 @@
                         android:layout_weight="1"
                         android:text="Qarakusi.am"
                         android:textColor="@color/black"
-                        android:textSize="18sp"/>
+                        android:textSize="18sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -179,3 +181,4 @@
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
