@@ -8,18 +8,17 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/light_grey_blue"
         android:elevation="0dp"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-    </androidx.appcompat.widget.Toolbar>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
@@ -28,11 +27,13 @@
         android:text="Math Resources"
         android:textColor="@color/title_text"
         android:textSize="26sp"
-        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:id="@+id/subtitle"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
@@ -40,18 +41,25 @@
         android:text="For Admin"
         android:textColor="@color/grey"
         android:textSize="16sp"
-        app:layout_constraintTop_toBottomOf="@id/title" />
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
+        android:id="@+id/resourceCard"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="-200dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
         app:cardBackgroundColor="@color/card_background"
         app:cardCornerRadius="16dp"
         app:cardElevation="4dp"
-        app:layout_constraintTop_toBottomOf="@id/subtitle">
+        app:layout_constraintTop_toBottomOf="@id/subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,15 +75,15 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="2dp"
-                app:strokeWidth="1dp">
+                app:strokeWidth="1dp"
+                android:backgroundTint="@color/light_lavender">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:backgroundTint="@color/stroke_color">
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="36dp"
@@ -91,7 +99,7 @@
                         android:layout_weight="1"
                         android:text="Art Of Problem Solving ( AoPs )"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -103,7 +111,8 @@
                 app:cardCornerRadius="12dp"
                 app:cardElevation="2dp"
                 app:strokeColor="@color/stroke_color"
-                app:strokeWidth="1dp">
+                app:strokeWidth="1dp"
+                android:backgroundTint="@color/light_lavender">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -127,7 +136,7 @@
                         android:layout_weight="1"
                         android:text="Problems.ru"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -138,15 +147,15 @@
                 app:cardCornerRadius="12dp"
                 app:cardElevation="2dp"
                 app:strokeColor="@color/stroke_color"
-                app:strokeWidth="1dp">
+                app:strokeWidth="1dp"
+                android:backgroundTint="@color/light_lavender">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:backgroundTint="@color/stroke_color">
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="36dp"
@@ -162,9 +171,11 @@
                         android:layout_weight="1"
                         android:text="Qarakusi.am"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
